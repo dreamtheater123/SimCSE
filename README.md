@@ -21,7 +21,7 @@ Besides, In order to show that this implementation is correct, here's the result
 | -------------------  | ---------------------  |
 | SimCSE official      | 0.761                  |
 | Our implementation   | 0.763                  |
-<br>
+
 Hyperparameters: 
 ```
 epoch: 1
