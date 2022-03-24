@@ -17,10 +17,11 @@ Next, you can do the training by simply calling `python train.py`
 ## Prediction & results
 In this version, we only support STS12 task here. Prediction command: `python prediction.py`<br>
 Besides, In order to show that this implementation is correct, here's the results comparison of the STS12 task (we train the official SimCSE with the same configuration and test it on STS12 task):
-| Implementation       | Spearman's correlation |
-| -------------------  | ---------------------  |
-| SimCSE official      | 0.761                  |
-| Our implementation   | 0.763                  |
+| Implementation        | Spearman's correlation |
+| -------------------   | ---------------------  |
+| Score in paper        | 0.753                  |
+| SimCSE official(rerun)| 0.761                  |
+| Our implementation    | 0.763                  |
 
 Hyperparameters: 
 ```
